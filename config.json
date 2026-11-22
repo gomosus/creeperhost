@@ -1,13 +1,13 @@
 {
   "app_name": "CreeperHost",
-  "latest_version": "1.1.0",
-  "min_supported_version": "1.1.0",
-  "kill_switch": false,
+  "latest_version": "1.0.0",
+  "min_supported_version": "1.0.0",
+  "kill_switch": true,
   "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar dene.",
   "maintenance": false,
   "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
   "banner": {
-    "text": "🎉 CreeperHost v1.0.0 yayında!",
+    "text": "🎉 CreeperHost v1.0.0 yayında! Umarım Sunucu Açmak Kolaydır!",
     "level": "info",
     "dismissible": true
   },
