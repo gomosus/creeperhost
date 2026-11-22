@@ -1,0 +1,53 @@
+{
+  "app_name": "CreeperHost",
+  "latest_version": "1.0.0",
+  "min_supported_version": "1.0.0",
+  "kill_switch": false,
+  "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar dene.",
+  "maintenance": false,
+  "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
+  "banner": {
+    "text": "🎉 CreeperHost v1.0.0 yayında!",
+    "level": "info",
+    "dismissible": true
+  },
+  "blocked_versions": [],
+  "deprecated_versions": [],
+  "releases": [
+    {
+      "version": "1.0.0",
+      "notes": "- İlk kararlı sürüm\n- Sunucu oluşturma (Vanilla/Paper/Forge)\n- Java 8/11/17/21 otomatik kurulum\n- Canlı konsol + crash tespiti\n- Modrinth mod/plugin kurma\n- bore.pub ile paylaşım\n- Yedekleme + klonlama\n- Uzak durum (kill switch, bakım, güncelleme)",
+      "download": "https://github.com/KULLANICI/REPO/releases/download/v1.0.0/CreeperHost-1.0.0.exe",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "feature_flags": {
+    "modrinth": true,
+    "sharing_server": true,
+    "backup": true
+  },
+  "disabled_server_types": [],
+  "disabled_mc_versions": [],
+  "force_config": {
+    "default_ram_mb": 2048,
+    "default_port": 25565,
+    "allow_ram_change": true
+  },
+  "max_servers": 0,
+  "max_ram_per_server": 0,
+  "forced_java": {},
+  "acknowledge": null,
+  "update_mandatory": false,
+  "mirrors": [],
+  "ads": {
+    "enabled": false,
+    "cooldown_seconds": 600,
+    "show_on_server_start": true,
+    "ads": []
+  },
+  "support": {
+    "discord": "",
+    "github": "https://github.com/gomosus/creeperhost",
+    "email": ""
+  }
+}
