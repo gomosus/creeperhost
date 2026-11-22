@@ -3,7 +3,7 @@
   "latest_version": "1.0.0",
   "min_supported_version": "1.0.0",
   "kill_switch": true,
-  "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar dene.",
+  "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar deneyiniz.",
   "maintenance": false,
   "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
   "banner": {
