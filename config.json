@@ -1,7 +1,7 @@
 {
   "app_name": "CreeperHost",
-  "latest_version": "1.0.0",
-  "min_supported_version": "1.0.0",
+  "latest_version": "1.1.0",
+  "min_supported_version": "1.1.0",
   "kill_switch": false,
   "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar dene.",
   "maintenance": false,
