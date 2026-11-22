@@ -1,0 +1,14 @@
+{
+  "name": "server-manager",
+  "version": "1.0.0",
+  "release_channel": "latest",
+  "sponsor": {
+    "name": "CreeperHost",
+    "url": "https://www.creeper-host.netlify.app",
+    "tagline": "Premium Minecraft server hosting since 2011",
+    "advertisement": {
+      "enabled": true,
+      "text": "Sunucunu CreeperHost üzerinde barındır: 90+ oyun, DDoS koruması ve CreeperPanel kontrol paneli."
+    }
+  }
+}
