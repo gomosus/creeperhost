@@ -1,13 +1,13 @@
 {
   "app_name": "CreeperHost",
-  "latest_version": "1.0.0",
+  "latest_version": "1.2.0",
   "min_supported_version": "1.0.0",
-  "kill_switch": true,
-  "kill_message": "💥 Sistem geçici olarak kapatıldı. Lütfen daha sonra tekrar deneyiniz.",
+  "kill_switch": false,
+  "kill_message": "💥 Sistem kapatıldı.",
   "maintenance": false,
   "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
   "banner": {
-    "text": "🎉 CreeperHost v1.0.0 yayında! Umarım Sunucu Açmak Kolaydır!",
+    "text": "🎉 CreeperHost v1.2.0 yayında! Daha hızlı, daha güçlü, her yerde reklamlar!",
     "level": "info",
     "dismissible": true
   },
@@ -15,16 +15,17 @@
   "deprecated_versions": [],
   "releases": [
     {
-      "version": "1.0.0",
-      "notes": "- İlk kararlı sürüm\n- Sunucu oluşturma (Vanilla/Paper/Forge)\n- Java 8/11/17/21 otomatik kurulum\n- Canlı konsol + crash tespiti\n- Modrinth mod/plugin kurma\n- bore.pub ile paylaşım\n- Yedekleme + klonlama\n- Uzak durum (kill switch, bakım, güncelleme)",
-      "download": "https://github.com/KULLANICI/REPO/releases/download/v1.0.0/CreeperHost-1.0.0.exe",
+      "version": "1.2.0",
+      "notes": "- Kill switch tamamen kaldırıldı\n- Tüm sistemler full çalışıyor\n- Her yerde reklamlar (sunucu başlatma başına)\n- Daha fazla reklam çeşidi ve daha kısa cooldown\n- Performans iyileştirmeleri\n- Hata düzeltmeleri",
+      "download": "https://github.com/gomosus/creeperhost/releases/download/v1.2.0/CreeperHost-1.2.0.exe",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
     }
   ],
   "feature_flags": {
     "modrinth": true,
     "sharing_server": true,
-    "backup": true
+    "backup": true,
+    "web_sharing": true
   },
   "disabled_server_types": [],
   "disabled_mc_versions": [],
@@ -40,10 +41,65 @@
   "update_mandatory": false,
   "mirrors": [],
   "ads": {
-    "enabled": false,
-    "cooldown_seconds": 600,
+    "enabled": true,
+    "cooldown_seconds": 60,
     "show_on_server_start": true,
-    "ads": []
+    "ads": [
+      {
+        "id": "ad-hosting",
+        "title": "🚀 Ucuz Minecraft Hosting!",
+        "text": "Aylık 29₺'den başlayan fiyatlarla DDoS korumalı, 7/24 destekli Minecraft sunucuları. Hemen kur, oynamaya başla!",
+        "weight": 10,
+        "duration": 8,
+        "skippable": false,
+        "active": true
+      },
+      {
+        "id": "ad-discord",
+        "title": "💬 CreeperHost Discord",
+        "text": "Binlerce oyuncuyla tanış, sunucunu tanıt, yardım al! Discord sunucumuza katıl.",
+        "weight": 8,
+        "duration": 6,
+        "skippable": true,
+        "active": true
+      },
+      {
+        "id": "ad-vpn",
+        "title": "🔒 Oyunculara Özel VPN",
+        "text": "Düşük ping, sınırsız bant genişliği, sadece 15₺/ay. Arkadaşlarınla güvenli bağlan!",
+        "weight": 6,
+        "duration": 7,
+        "skippable": true,
+        "active": true
+      },
+      {
+        "id": "ad-mouse",
+        "title": "🖱️ Gaming Mouse İndirimi",
+        "text": "Oyunculara özel %50 indirim! 16000 DPI, RGB aydınlatma. Stoklar sınırlı.",
+        "weight": 5,
+        "duration": 6,
+        "skippable": true,
+        "active": true
+      },
+      {
+        "id": "ad-promote",
+        "title": "🏆 Sunucunu Tanıt!",
+        "text": "Sunucunu binlerce oyuncuya duyur. Premium listeleme ile hemen öne çık!",
+        "weight": 4,
+        "duration": 6,
+        "skippable": true,
+        "active": true
+      },
+      {
+        "id": "ad-ram",
+        "title": "💾 Daha Fazla RAM mi Lazım?",
+        "text": "Sistem yükseltme paketleri %30 indirimli! 16GB DDR4 kitler stokta.",
+        "weight": 3,
+        "duration": 5,
+        "skippable": true,
+        "active": true
+      }
+    ]
   },
   "support": {
     "discord": "",
