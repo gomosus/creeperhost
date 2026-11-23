@@ -7,7 +7,7 @@
   "maintenance": false,
   "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
   "banner": {
-    "text": "🎉 CreeperHost v1.2.0 yayında! Daha hızlı, daha güçlü, her yerde reklamlar!",
+    "text": "🎉 CreeperHost v1.2.0 yayında! Daha hızlı, daha güçlü!",
     "level": "info",
     "dismissible": true
   },
@@ -56,47 +56,20 @@
       },
       {
         "id": "ad-discord",
-        "title": "💬 CreeperHost Discord",
-        "text": "Binlerce oyuncuyla tanış, sunucunu tanıt, yardım al! Discord sunucumuza katıl.",
+        "title": "💬 CreeperHost Chat",
+        "text": "Onlarca oyuncuyla tanış, sunucunu tanıt, yardım al! Yakında Açılıyor!",
         "weight": 8,
         "duration": 6,
-        "skippable": true,
-        "active": true
-      },
-      {
-        "id": "ad-vpn",
-        "title": "🔒 Oyunculara Özel VPN",
-        "text": "Düşük ping, sınırsız bant genişliği, sadece 15₺/ay. Arkadaşlarınla güvenli bağlan!",
-        "weight": 6,
-        "duration": 7,
-        "skippable": true,
-        "active": true
-      },
-      {
-        "id": "ad-mouse",
-        "title": "🖱️ Gaming Mouse İndirimi",
-        "text": "Oyunculara özel %50 indirim! 16000 DPI, RGB aydınlatma. Stoklar sınırlı.",
-        "weight": 5,
-        "duration": 6,
-        "skippable": true,
+        "skippable": false,
         "active": true
       },
       {
         "id": "ad-promote",
         "title": "🏆 Sunucunu Tanıt!",
-        "text": "Sunucunu binlerce oyuncuya duyur. Premium listeleme ile hemen öne çık!",
+        "text": "Sunucunu onlarca oyuncuya duyur. Premium listeleme ile hemen öne çık!",
         "weight": 4,
         "duration": 6,
-        "skippable": true,
-        "active": true
-      },
-      {
-        "id": "ad-ram",
-        "title": "💾 Daha Fazla RAM mi Lazım?",
-        "text": "Sistem yükseltme paketleri %30 indirimli! 16GB DDR4 kitler stokta.",
-        "weight": 3,
-        "duration": 5,
-        "skippable": true,
+        "skippable": false,
         "active": true
       }
     ]
