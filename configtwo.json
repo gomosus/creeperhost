@@ -17,8 +17,8 @@
     {
       "version": "1.2.0",
       "notes": "- Kill switch tamamen kaldırıldı\n- Tüm sistemler full çalışıyor\n- Her yerde reklamlar (sunucu başlatma başına)\n- Daha fazla reklam çeşidi ve daha kısa cooldown\n- Performans iyileştirmeleri\n- Hata düzeltmeleri",
-      "download": "https://github.com/gomosus/creeperhost/releases/download/v1.2.0/CreeperHost-1.2.0.exe",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      "download": "https://github.com/gomosus/creeperhostreleases/releases/download/Releases/CreeperHost.exe",
+      "sha256": "9ff6f6d38014ad1de8defe871a2aef90cd1876a8532c43f04f796f854f918e30"
     }
   ],
   "feature_flags": {
