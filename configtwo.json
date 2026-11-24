@@ -30,7 +30,7 @@
   "disabled_server_types": [],
   "disabled_mc_versions": [],
   "force_config": {
-    "default_ram_mb": 2048,
+    "default_ram_mb": 4096,
     "default_port": 25565,
     "allow_ram_change": true
   },
