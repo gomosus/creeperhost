@@ -1,13 +1,13 @@
 {
   "app_name": "CreeperHost",
-  "latest_version": "1.2.0",
-  "min_supported_version": "1.0.0",
+  "latest_version": "1.3.0",
+  "min_supported_version": "1.3.0",
   "kill_switch": false,
   "kill_message": "💥 Sistem kapatıldı.",
   "maintenance": false,
   "maintenance_message": "🔧 Bakımdayız, birazdan döneriz.",
   "banner": {
-    "text": "🎉 CreeperHost v1.2.0 yayında! Daha hızlı, daha güçlü!",
+    "text": "🎉 CreeperHost v1.3.0 yayında! Daha hızlı, daha güçlü!",
     "level": "info",
     "dismissible": true
   },
@@ -15,10 +15,10 @@
   "deprecated_versions": [],
   "releases": [
     {
-      "version": "1.2.0",
+      "version": "1.3.0",
       "notes": "- Kill switch tamamen kaldırıldı\n- Tüm sistemler full çalışıyor\n- Her yerde reklamlar (sunucu başlatma başına)\n- Daha fazla reklam çeşidi ve daha kısa cooldown\n- Performans iyileştirmeleri\n- Hata düzeltmeleri",
-      "download": "https://github.com/gomosus/creeperhostreleases/releases/download/Releases/CreeperHost.exe",
-      "sha256": "9ff6f6d38014ad1de8defe871a2aef90cd1876a8532c43f04f796f854f918e30"
+      "download": "https://github.com/gomosus/creeperhostreleases/releases/download/Relase/CreeperHost.exe",
+      "sha256": "b433f9b8c5d6d4fcf6eef570a413516a8760b6d5809b0ab944c795331770f904"
     }
   ],
   "feature_flags": {
