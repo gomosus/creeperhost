@@ -5,7 +5,7 @@
     "favicon": "https://raw.githubusercontent.com/gomosus/creeperhost/refs/heads/main/steaklogo.webp"
   },
   "server": {
-    "ip": "play.steaksmp.com",
+    "ip": "185.14.93.90:20542",
     "version": "1.21.x"
   },
   "socials": {
