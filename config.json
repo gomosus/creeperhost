@@ -1,8 +1,8 @@
 {
   "brand": {
     "name": "SteakSMP",
-    "logo": "https://github.com/gomosus/creeperhost/blob/main/steaklogo.webp",
-    "favicon": "https://github.com/gomosus/creeperhost/blob/main/steaklogo.webp"
+    "logo": "https://raw.githubusercontent.com/gomosus/creeperhost/refs/heads/main/steaklogo.webp",
+    "favicon": "https://raw.githubusercontent.com/gomosus/creeperhost/refs/heads/main/steaklogo.webp"
   },
   "server": {
     "ip": "play.steaksmp.com",
